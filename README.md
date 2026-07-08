@@ -120,9 +120,108 @@ Risk Questions:
 
 ![Description of the screenshot](https://github.com/Pradipjagi99/Bank_Customer_Churn_Analysis/blob/main/Images/Python/Screenshot%202026-07-07%20084237.jpg)
 
-- Unique values: Checking for unique values and if found duplicate correcting them.
+- Unique values: Checking for unique values 
 
 ![Description of the screenshot](https://github.com/Pradipjagi99/Bank_Customer_Churn_Analysis/blob/main/Images/Python/Screenshot%202026-07-07%20084258.jpg)
+
+- Geography Distribution
+
+![Description of the screenshot](https://github.com/Pradipjagi99/Bank_Customer_Churn_Analysis/blob/main/Images/Python/Screenshot%202026-07-07%20084349.jpg)
+
+- Gender Distribution
+
+![Description of the screenshot](https://github.com/Pradipjagi99/Bank_Customer_Churn_Analysis/blob/main/Images/Python/Screenshot%202026-07-07%20084416.jpg)
+
+- Card Type Distribution
+
+![Description of the screenshot](https://github.com/Pradipjagi99/Bank_Customer_Churn_Analysis/blob/main/Images/Python/Screenshot%202026-07-07%20084443.jpg)
+
+- Churn Distribution
+
+![Description of the screenshot](https://github.com/Pradipjagi99/Bank_Customer_Churn_Analysis/blob/main/Images/Python/Screenshot%202026-07-07%20084512.jpg)
+
+- Check Duplicates
+- CustomerId Duplicates
+
+![Description of the screenshot](https://github.com/Pradipjagi99/Bank_Customer_Churn_Analysis/blob/main/Images/Python/Screenshot%202026-07-07%20084547.jpg)
+
+---
+
+## <img width="32" height="32" alt="exploratory-analysis" src="https://github.com/user-attachments/assets/8973903e-f2f7-4f19-9aff-7e71b01255e5" /> Exploratory Data Analysis (EDA)
+- This is where the real business investigation begins.
+    We will answer questions such as:
+- Customer Churn
+  - Which age group leaves most?
+  - Which country has highest churn?
+  - Do inactive customers churn more?
+  - Does balance affect churn?
+  - Do complaints drive churn?
+- Product Analysis
+  - Which products increase loyalty?
+  - Which card type retains customers best?
+- Executive Insights
+  - At the end of EDA we'll create:
+  - 10–15 business insights
+  - KPI framework
+  - SQL queries used in companies
+  - Power BI dashboard layout
+  - Management recommendation report
+  - Future retention strategy report
+
+Now we start answering management questions.
+
+## Business Question #1
+
+- Does Age Impact Churn?
+- Are older customers leaving more often than younger customers
+
+![Description of the screenshot](https://github.com/Pradipjagi99/Bank_Customer_Churn_Analysis/blob/main/Images/Python/Screenshot%202026-07-07%20084643.jpg)
+
+- Visualization
+
+![Description of the screenshot](https://github.com/Pradipjagi99/Bank_Customer_Churn_Analysis/blob/main/Images/Python/Screenshot%202026-07-07%20084724.jpg)
+
+- Age Groups
+
+![Description of the screenshot](https://github.com/Pradipjagi99/Bank_Customer_Churn_Analysis/blob/main/Images/Python/Screenshot%202026-07-07%20084751.jpg)
+
+##  Business Question #2
+
+- Does Geography Impact Churn?
+- Which country is responsible for most customer losses?
+
+![Description of the screenshot](https://github.com/Pradipjagi99/Bank_Customer_Churn_Analysis/blob/main/Images/Python/Screenshot%202026-07-07%20084850.jpg)
+
+- Visualization
+
+![Description of the screenshot](https://github.com/Pradipjagi99/Bank_Customer_Churn_Analysis/blob/main/Images/Python/Screenshot%202026-07-07%20084930.jpg)
+
+##  Business Question #3
+
+- Do Customer Complaints Drive Churn?
+- Are customers leaving because they are unhappy?
+
+![Description of the screenshot](https://github.com/Pradipjagi99/Bank_Customer_Churn_Analysis/blob/main/Images/Python/Screenshot%202026-07-07%20101337.jpg)
+
+- Complaint Distribution
+
+![Description of the screenshot](https://github.com/Pradipjagi99/Bank_Customer_Churn_Analysis/blob/main/Images/Python/Screenshot%202026-07-07%20101358.jpg)
+
+- Visualization
+
+![Description of the screenshot](https://github.com/Pradipjagi99/Bank_Customer_Churn_Analysis/blob/main/Images/Python/Screenshot%202026-07-07%20101425.jpg)
+
+## Business Question #4
+
+- Does Customer Satisfaction Affect Churn?
+- Are dissatisfied customers leaving us?
+
+![Description of the screenshot](https://github.com/Pradipjagi99/Bank_Customer_Churn_Analysis/blob/main/Images/Python/Screenshot%202026-07-07%20101455.jpg)
+
+
+
+
+
 
 
 
