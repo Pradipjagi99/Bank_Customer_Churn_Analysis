@@ -218,9 +218,82 @@ Now we start answering management questions.
 
 ![Description of the screenshot](https://github.com/Pradipjagi99/Bank_Customer_Churn_Analysis/blob/main/Images/Python/Screenshot%202026-07-07%20101455.jpg)
 
+- Satisfaction vs Churn
 
+![Description of the screenshot](https://github.com/Pradipjagi99/Bank_Customer_Churn_Analysis/blob/main/Images/Python/Screenshot%202026-07-07%20101516.jpg)
 
+- Average Satisfaction
 
+![Description of the screenshot](https://github.com/Pradipjagi99/Bank_Customer_Churn_Analysis/blob/main/Images/Python/Screenshot%202026-07-07%20101535.jpg)
+
+- Visualization
+
+![Description of the screenshot](https://github.com/Pradipjagi99/Bank_Customer_Churn_Analysis/blob/main/Images/Python/Screenshot%202026-07-07%20101558.jpg)
+
+## Business Question #5
+
+- Does Being an Active Member Reduce Churn?
+- Are inactive customers leaving the bank?
+
+![Description of the screenshot](https://github.com/Pradipjagi99/Bank_Customer_Churn_Analysis/blob/main/Images/Python/Screenshot%202026-07-07%20101638.jpg)
+
+- Active Member vs Churn
+
+![Description of the screenshot](https://github.com/Pradipjagi99/Bank_Customer_Churn_Analysis/blob/main/Images/Python/Screenshot%202026-07-07%20101700.jpg)
+
+- Visualization
+
+![Description of the screenshot](https://github.com/Pradipjagi99/Bank_Customer_Churn_Analysis/blob/main/Images/Python/Screenshot%202026-07-07%20101800.jpg)
+
+## Business Question #6
+
+- Does Account Balance Affect Churn?
+- Are customers with higher balances more likely to leave?
+
+![Description of the screenshot](https://github.com/Pradipjagi99/Bank_Customer_Churn_Analysis/blob/main/Images/Python/Screenshot%202026-07-07%20102454.jpg)
+
+-  Boxplot
+
+![Description of the screenshot](https://github.com/Pradipjagi99/Bank_Customer_Churn_Analysis/blob/main/Images/Python/Screenshot%202026-07-07%20102516.jpg)
+
+- Create Balance Segments
+- Churn by Balance Group
+
+![Description of the screenshot](https://github.com/Pradipjagi99/Bank_Customer_Churn_Analysis/blob/main/Images/Python/Screenshot%202026-07-07%20102541.jpg)
+
+## Business Question #7
+
+- Does Number of Products Affect Churn?
+- Do customers with more products stay longer?
+
+![Description of the screenshot](https://github.com/Pradipjagi99/Bank_Customer_Churn_Analysis/blob/main/Images/Python/Screenshot%202026-07-07%20102607.jpg)
+
+- Product vs Churn
+
+![Description of the screenshot](https://github.com/Pradipjagi99/Bank_Customer_Churn_Analysis/blob/main/Images/Python/Screenshot%202026-07-07%20102629.jpg)
+
+- Visualization
+
+![Description of the screenshot](https://github.com/Pradipjagi99/Bank_Customer_Churn_Analysis/blob/main/Images/Python/Screenshot%202026-07-07%20103438.jpg)
+
+## Business Question #8
+
+- What causes churn?
+- What does a typical churned customer look like?
+
+![Description of the screenshot](https://github.com/Pradipjagi99/Bank_Customer_Churn_Analysis/blob/main/Images/Python/Screenshot%202026-07-07%20103459.jpg)
+
+- Credit Card vs Churn
+
+![Description of the screenshot](https://github.com/Pradipjagi99/Bank_Customer_Churn_Analysis/blob/main/Images/Python/Screenshot%202026-07-07%20103518.jpg)
+
+- Card Type vs Churn
+
+![Description of the screenshot](https://github.com/Pradipjagi99/Bank_Customer_Churn_Analysis/blob/main/Images/Python/Screenshot%202026-07-07%20103541.jpg)
+
+- Average Metrics by Churn
+
+![Description of the screenshot](https://github.com/Pradipjagi99/Bank_Customer_Churn_Analysis/blob/main/Images/Python/Screenshot%202026-07-07%20103604.jpg)
 
 
 
