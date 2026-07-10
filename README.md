@@ -295,12 +295,257 @@ Now we start answering management questions.
 
 ![Description of the screenshot](https://github.com/Pradipjagi99/Bank_Customer_Churn_Analysis/blob/main/Images/Python/Screenshot%202026-07-07%20103604.jpg)
 
+---
 
+> [!NOTE]
+> Click the dropdown list below for more information on SQL or Power BI.
 
+---
 
+<details>
+<summary>SQL <img width="28" height="28" alt="image" src="https://github.com/user-attachments/assets/ee2f380f-d0fc-4898-a809-6d7d7572d768" /> </summary>
 
+## 📂 Introduction to the Database
 
+This project involves Bank Customer Churn analyzing.The dataset already contains a target variable (Exited) which means we can analyze why customers leave the bank and recommend actions to reduce churn. 
 
+---    
 
+## 🏗️ Database Setup
+
+```sql
+CREATE schema customer_churn;
+USE customer_churn;
+```
+
+## 📂 Importing Data into MySQL Workbench
+
+To work with the database, we first need to import the data from the `Customer-Churn-Records.csv` file into MySQL Workbench. Follow these steps:
+
+1. **Open MySQL Workbench**:
+
+   - Launch MySQL Workbench and connect to your database server.
+
+2. **Select the Database**:
+
+   - Use the `customer_churn` database by running:
+     ```sql
+     USE customer_churn;
+     ```
+
+3. **Go to the Import Section**:
+
+   - Click on the "Server" menu and select "Data Import."
+
+4. **Choose the CSV File**:
+
+   - In the "Import" tab, choose the `Customer-Churn-Records.csv` file as the source.
+   - Ensure the "Import Data from File" option is selected.
+
+5. **Map the Table**:
+
+   - Select the destination table (`customer_churn_records`).
+   - Map the CSV columns to the corresponding table columns.
+
+6. **Run the Import**:
+
+   - Click on "Start Import."
+
+---
+
+## 📜 SQL Queries & Answers
+
+### 1️⃣ Dataset Validation
+
+**📝 Query:**
+
+```sql
+select count(*) as total_customers
+from customer_churn_records;
+```
+
+**📊 Answer:**
+
+![Description of the screenshot](https://github.com/Pradipjagi99/Bank_Customer_Churn_Analysis/blob/main/Images/SQL/Screenshot%202026-07-05%20112931.jpg)
+
+---
+
+### 2️⃣ Executive KPIs
+
+**📝 Query:**
+
+```sql
+select 
+	count(*) as total_customers,
+    sum(Exited) as churned_customers,
+    ROUND(SUM(Exited)*100.0/COUNT(*),2) AS churn_rate
+from customer_churn_records;
+```
+
+**📊 Answer:**
+
+![Description of the screenshot](https://github.com/Pradipjagi99/Bank_Customer_Churn_Analysis/blob/main/Images/SQL/Screenshot%202026-07-05%20113008.jpg)
+
+---
+
+### 3️⃣ Geography Analysis
+
+**📝 Query:**
+
+```sql
+select
+	Geography,
+    count(*) as customers,
+    round(avg(Exited)*100,2) as churn_rate
+from customer_churn_records
+group by Geography
+order by churn_rate desc;
+```
+
+**📊 Answer:**
+---
+
+![Description of the screenshot](https://github.com/Pradipjagi99/Bank_Customer_Churn_Analysis/blob/main/Images/SQL/Screenshot%202026-07-05%20113120.jpg)
+
+---
+
+### 4️⃣ Age Analysis
+
+**📝 Query:**
+
+```sql
+SELECT
+    CASE
+        WHEN Age BETWEEN 18 AND 30 THEN '18-30'
+        WHEN Age BETWEEN 31 AND 40 THEN '31-40'
+        WHEN Age BETWEEN 41 AND 50 THEN '41-50'
+        ELSE '51+'
+    END AS age_group,
+    ROUND(AVG(Exited)*100,2) AS churn_rate
+FROM customer_churn_records
+GROUP BY age_group
+ORDER BY churn_rate DESC;
+
+```
+
+**📊 Answer:**
+---
+
+![Description of the screenshot](https://github.com/Pradipjagi99/Bank_Customer_Churn_Analysis/blob/main/Images/SQL/Screenshot%202026-07-05%20113148.jpg)
+
+---
+
+### 5️⃣ Active Member Analysis
+
+**📝 Query:**
+
+```sql
+SELECT
+    IsActiveMember,
+    ROUND(AVG(Exited)*100,2) AS churn_rate
+FROM customer_churn_records
+GROUP BY IsActiveMember;
+
+```
+
+**📊 Answer:**
+---
+
+![Description of the screenshot](https://github.com/Pradipjagi99/Bank_Customer_Churn_Analysis/blob/main/Images/SQL/Screenshot%202026-07-05%20113211.jpg)
+
+---
+
+### 6️⃣ Product Analysis
+
+**📝 Query:**
+
+```sql
+SELECT
+    NumOfProducts,
+    COUNT(*) AS customers,
+    ROUND(AVG(Exited)*100,2) AS churn_rate
+FROM customer_churn_records
+GROUP BY NumOfProducts
+ORDER BY NumOfProducts;
+
+```
+
+**📊 Answer:**
+---
+
+![Description of the screenshot](https://github.com/Pradipjagi99/Bank_Customer_Churn_Analysis/blob/main/Images/SQL/Screenshot%202026-07-05%20113236.jpg)
+
+---
+
+### 7️⃣ Complaint Analysis
+
+**📝 Query:**
+
+```sql
+SELECT
+    Complain,
+    COUNT(*) AS customers,
+    ROUND(AVG(Exited)*100,2) AS churn_rate
+FROM customer_churn_records
+GROUP BY Complain;
+
+```
+
+**📊 Answer:**
+---
+
+![Description of the screenshot](https://github.com/Pradipjagi99/Bank_Customer_Churn_Analysis/blob/main/Images/SQL/Screenshot%202026-07-05%20113310.jpg)
+
+---
+
+### 8️⃣ Gender Analysis
+
+**📝 Query:**
+
+```sql
+SELECT
+    Gender,
+    COUNT(*) AS customers,
+    ROUND(AVG(Exited)*100,2) AS churn_rate
+FROM customer_churn_records
+GROUP BY Gender;
+
+```
+
+**📊 Answer:**
+---
+
+![Description of the screenshot](https://github.com/Pradipjagi99/Bank_Customer_Churn_Analysis/blob/main/Images/SQL/Screenshot%202026-07-05%20113339.jpg)
+
+---
+
+### 9️⃣ Balance Impact
+
+**📝 Query:**
+
+```sql
+SELECT
+    Exited,
+    ROUND(AVG(Balance),2) AS avg_balance
+FROM customer_churn_records
+GROUP BY Exited;
+
+```
+
+**📊 Answer:**
+---
+
+![Description of the screenshot](https://github.com/Pradipjagi99/Bank_Customer_Churn_Analysis/blob/main/Images/SQL/Screenshot%202026-07-05%20113411.jpg)
+
+---
+
+- **📈 Key Insights**: Using SQL, we retrieve data that helps us answer questions such as:
+  - Highest Risk Region : Germany (32.44% Churn)
+  - Age-Related Attrition : Customers 51+ years old show 44.65% churn.
+  - Complaint Impact : 99.5% of complaining customers churned.
+  - Product Affinity : Lowest churn (7.6%) observed in 2-product segments.
+  - Engagement Status : Inactive members churn at 26.87%
+
+</details>
 
 
