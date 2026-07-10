@@ -548,4 +548,142 @@ GROUP BY Exited;
 
 </details>
 
+---
+
+<details>
+    <summary>Power BI <img width="28" height="30" alt="image" src="https://github.com/user-attachments/assets/1500083e-bdef-447f-9461-587caf8c5990" /> </summary>
+
+# Bank Churn Analysis Dashboards 📊
+
+This Power BI Dashboard provides a comprehensive analysis of Churned Customers and High-Risk Customer, focusing on churn rate by age group, average balance. The analysis leverages dynamic dashboards, interactive charts, and key performance indicators (KPIs) to identify trends and insights
+
+# <img width="28" height="30" alt="data-analysis" src="https://github.com/user-attachments/assets/ba52b1af-a0ea-4893-903f-38f33a7e77ae" /> Dashboard Page 1: Executive Summary
+
+![Description of the screenshot](https://github.com/Pradipjagi99/Bank_Customer_Churn_Analysis/blob/main/Images/Power%20Bi/Page1/Screenshot%202026-07-05%20105946.jpg)
+
+## <img width="28" height="30" alt="image" src="https://github.com/user-attachments/assets/0d84fcf0-ed8b-4f45-8562-bfa71f9a93c5" /> KPI’s Requirements
+
+**1. Total Customers** : The total count of different customers. 
+
+**2. Churned Customers** : customers stop using the service.
+
+**3. Churn Rate %** : percentage of customers stop using the service.
+
+**4. Active Customers %** : Active users percentage.
+
+**5. Avg Balance** : average of the balance amount.
+
+**6. Complaint Rate %** : customers complaint percentage
+
+---
+
+![Description of the screenshot](https://github.com/Pradipjagi99/Bank_Customer_Churn_Analysis/blob/main/Images/Power%20Bi/Page1/Screenshot%202026-07-05%20110320.jpg)
+
+---
+
+## <img width="28" height="30" alt="image" src="https://github.com/user-attachments/assets/cfa5bf02-459a-4151-9654-1752bdb43139" /> Chart’s Requirements
+
+- Churn Rate by Geography
+
+![Description of the screenshot](https://github.com/Pradipjagi99/Bank_Customer_Churn_Analysis/blob/main/Images/Power%20Bi/Page1/Screenshot%202026-07-05%20110222.jpg)
+
+- Customer Distribution by Geography
+
+![Description of the screenshot](https://github.com/Pradipjagi99/Bank_Customer_Churn_Analysis/blob/main/Images/Power%20Bi/Page1/Screenshot%202026-07-05%20110158.jpg)
+
+- Gender vs Churn
+
+![Description of the screenshot](https://github.com/Pradipjagi99/Bank_Customer_Churn_Analysis/blob/main/Images/Power%20Bi/Page1/Screenshot%202026-07-05%20110112.jpg)
+
+# <img width="28" height="30" alt="data-analysis" src="https://github.com/user-attachments/assets/ba52b1af-a0ea-4893-903f-38f33a7e77ae" /> Dashboard Page 2: Churn Drivers
+
+![Description of the screenshot](https://github.com/Pradipjagi99/Bank_Customer_Churn_Analysis/blob/main/Images/Power%20Bi/Page2/Screenshot%202026-07-05%20110415.jpg)
+
+# DAX Measures
+- Churn rate
+```
+Churn Rate =
+DIVIDE(
+    SUM(customer_churn_records[Exited]),
+    COUNT(customer_churn_records[CustomerId])
+)
+```
+
+- Active Customer
+```
+Active Customer % =
+DIVIDE(
+    CALCULATE(
+        COUNT(customer_churn_records[CustomerId]),
+        customer_churn_records[IsActiveMember] = 1
+    ),
+    COUNT(customer_churn_records[CustomerId])
+)  
+```
+
+- Complaint Rate
+```
+Complaint Rate =
+DIVIDE(
+    SUM(customer_churn_records[Complain]),
+    COUNT(customer_churn_records[CustomerId])
+)
+```
+
+- Total Balance Lost
+```
+Total Balance Lost =
+CALCULATE(
+    SUM(customer_churn_records[Balance]),
+    customer_churn_records[Exited] = 1
+)
+```
+
+- Average Balance
+```
+Avg Balance =
+AVERAGE(customer_churn_records[Balance])
+```
+
+- Highest Risk Geography
+```
+Highest Risk Geography = "Germany"
+```
+
+- Highest Risk Age Group
+```
+Highest Risk Age Group = "51+"
+```
+
+- Female Churn Rate
+```
+Female Churn Rate =
+CALCULATE(
+    [Churn Rate %],
+    customer_churn_records[Gender] = "Female"
+)
+```
+
+- Germany Churn Rate
+```
+Germany Churn Rate =
+CALCULATE(
+    [Churn Rate %],
+    customer_churn_records[Geography] = "Germany"
+)
+```
+
+- High Balance Churn Rate
+```
+High Balance Churn Rate =
+CALCULATE(
+    [Churn Rate %],
+    customer_churn_records[Balance] > 100000
+)
+```
+
+## <img width="28" height="30" alt="image" src="https://github.com/user-attachments/assets/0d84fcf0-ed8b-4f45-8562-bfa71f9a93c5" /> KPI’s Requirements
+
+
+
 
