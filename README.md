@@ -684,6 +684,33 @@ CALCULATE(
 
 ## <img width="28" height="30" alt="image" src="https://github.com/user-attachments/assets/0d84fcf0-ed8b-4f45-8562-bfa71f9a93c5" /> KPI’s Requirements
 
+**1. Highest Risk Age Group** : age group which are having highest churn rate are leaving service. 
+
+**2. Highest Risk Geography** : region of customers leaving the service.
+
+**3. Churn Rate %** : percentage of customers stop using the service.
+
+**4. Highest Risk Driver** : drivers which are leading to lose customers.
+
+---
+
+![Description of the screenshot](https://github.com/Pradipjagi99/Bank_Customer_Churn_Analysis/blob/main/Images/Power%20Bi/Page2/Screenshot%202026-07-05%20110924.jpg)
+
+---
+
+## <img width="28" height="30" alt="image" src="https://github.com/user-attachments/assets/cfa5bf02-459a-4151-9654-1752bdb43139" /> Chart’s Requirements
+
+- 
+
+
+
+
+
+
+
+
+
+
 
 
 
