@@ -720,7 +720,7 @@ CALCULATE(
 
 ![Description of the screenshot](https://github.com/Pradipjagi99/Bank_Customer_Churn_Analysis/blob/main/Images/Power%20Bi/Page2/Screenshot%202026-07-05%20110742.jpg)
 
-
+# <img width="28" height="30" alt="data-analysis" src="https://github.com/user-attachments/assets/ba52b1af-a0ea-4893-903f-38f33a7e77ae" /> Dashboard Page 3: Customer Segmentation & Risk Profile
 
 
 
