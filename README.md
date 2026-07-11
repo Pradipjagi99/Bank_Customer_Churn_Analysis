@@ -700,14 +700,25 @@ CALCULATE(
 
 ## <img width="28" height="30" alt="image" src="https://github.com/user-attachments/assets/cfa5bf02-459a-4151-9654-1752bdb43139" /> Chart’s Requirements
 
-- 
+- Complaint vs Churn
 
+![Description of the screenshot](https://github.com/Pradipjagi99/Bank_Customer_Churn_Analysis/blob/main/Images/Power%20Bi/Page2/Screenshot%202026-07-05%20110533.jpg)
 
+- Age Group vs Churn
 
+![Description of the screenshot](https://github.com/Pradipjagi99/Bank_Customer_Churn_Analysis/blob/main/Images/Power%20Bi/Page2/Screenshot%202026-07-05%20110812.jpg)
 
+- Active Member vs Churn
 
+![Description of the screenshot](https://github.com/Pradipjagi99/Bank_Customer_Churn_Analysis/blob/main/Images/Power%20Bi/Page2/Screenshot%202026-07-05%20110632.jpg)
 
+- Products vs Churn
 
+![Description of the screenshot](https://github.com/Pradipjagi99/Bank_Customer_Churn_Analysis/blob/main/Images/Power%20Bi/Page2/Screenshot%202026-07-05%20110705.jpg)
+
+- Balance Group vs Churn
+
+![Description of the screenshot](https://github.com/Pradipjagi99/Bank_Customer_Churn_Analysis/blob/main/Images/Power%20Bi/Page2/Screenshot%202026-07-05%20110742.jpg)
 
 
 
