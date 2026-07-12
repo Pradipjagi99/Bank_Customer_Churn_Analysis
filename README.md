@@ -770,18 +770,54 @@ CALCULATE(
 
 ![Description of the screenshot](https://github.com/Pradipjagi99/Bank_Customer_Churn_Analysis/blob/main/Images/Power%20Bi/Page3/Screenshot%202026-07-05%20111643.jpg)
 
+# <img width="28" height="30" alt="data-analysis" src="https://github.com/user-attachments/assets/ba52b1af-a0ea-4893-903f-38f33a7e77ae" /> Dashboard Page 4: Strategic Recommendations
 
+![Description of the screenshot](https://github.com/Pradipjagi99/Bank_Customer_Churn_Analysis/blob/main/Images/Power%20Bi/Page4/Screenshot%202026-07-05%20111759.jpg)
 
+--- 
 
+## <img width="28" height="30" alt="insight" src="https://github.com/user-attachments/assets/cdbff982-a94f-4458-bd12-5e381c8c0452" /> Key Findings & Insights
 
+- Highest Risk Region : Germany (32.44% Churn)
+- Age-Related Attrition : Customers 51+ years old show 44.65% churn.
+- Complaint Impact : 99.5% of complaining customers churned.
+- Product Affinity : Lowest churn (7.6%) observed in 2-product segments.
+- Engagement Status : Inactive members churn at 26.87%.
 
+## <img width="28" height="30" alt="planning" src="https://github.com/user-attachments/assets/6e980709-aac5-4b3c-b12f-de783441889b" /> Strategic Recommendations
 
+- Service Recovery: Implement a 24-hour resolution protocol for all formal complaints.
+- Engagement Campaigns: Target inactive members with personalized offers to re-establish banking habits.
+- Product Deepening: Incentivize single-product customers to move to a 2 product bundle, as this carries the lowest risk profile.
+- Localization: Audit German operations to understand the 32% churn rate vs. other regions.
+- High-Value VIP: Assign relationship managers to high-balance customers to protect the €185M+ at-risk capital
 
+## <img width="28" height="30" alt="strategic-plan" src="https://github.com/user-attachments/assets/c5ff05f2-fb11-408f-b8ff-776ea16f2f47" /> Future Roadmap
 
+- Build churn prediction model.
+- Create customer lifetime value analysis.
+- Perform cohort retention analysis.
+- Develop early-warning churn alerts.
+- Implement customer segmentation strategy.
 
+</details>
 
+---
 
+## 📧 Contact
 
+For any queries or feedback, feel free to reach out:
+
+- **Name**: Jagi Pradip Rao
+- **Email**: pradip.jagi@gmail.com
+
+---
+
+## 🔗 Links
+ 
+[![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](www.linkedin.com/in/jagipradiprao)
+
+---
 
 
 
