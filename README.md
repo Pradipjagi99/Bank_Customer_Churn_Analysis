@@ -722,6 +722,75 @@ CALCULATE(
 
 # <img width="28" height="30" alt="data-analysis" src="https://github.com/user-attachments/assets/ba52b1af-a0ea-4893-903f-38f33a7e77ae" /> Dashboard Page 3: Customer Segmentation & Risk Profile
 
+![Description of the screenshot](https://github.com/Pradipjagi99/Bank_Customer_Churn_Analysis/blob/main/Images/Power%20Bi/Page3/Screenshot%202026-07-05%20111154.jpg)
+
+## <img width="28" height="30" alt="image" src="https://github.com/user-attachments/assets/0d84fcf0-ed8b-4f45-8562-bfa71f9a93c5" /> KPI’s Requirements
+
+**1. Female Churn Rate** : churn rate according to gender. 
+
+**2. Germany Churn Rate** : churn rate according to region.
+
+**3. High Balance Churn Rate** : churn rate using balance.
+
+**4. High-Risk Customer Profile** : profile which are at highest churn rate.
+
+---
+
+![Description of the screenshot](https://github.com/Pradipjagi99/Bank_Customer_Churn_Analysis/blob/main/Images/Power%20Bi/Page3/Screenshot%202026-07-05%20111107.jpg)
+
+---
+
+## <img width="28" height="30" alt="image" src="https://github.com/user-attachments/assets/cfa5bf02-459a-4151-9654-1752bdb43139" /> Chart’s Requirements
+
+- Geography vs Churn
+
+![Description of the screenshot](https://github.com/Pradipjagi99/Bank_Customer_Churn_Analysis/blob/main/Images/Power%20Bi/Page3/Screenshot%202026-07-05%20111223.jpg)
+
+- Gender vs Churn
+
+![Description of the screenshot](https://github.com/Pradipjagi99/Bank_Customer_Churn_Analysis/blob/main/Images/Power%20Bi/Page3/Screenshot%202026-07-05%20111319.jpg)
+
+- Card Type vs Churn
+
+![Description of the screenshot](https://github.com/Pradipjagi99/Bank_Customer_Churn_Analysis/blob/main/Images/Power%20Bi/Page3/Screenshot%202026-07-05%20111343.jpg)
+
+- Average Credit Score by Exited
+
+![Description of the screenshot](https://github.com/Pradipjagi99/Bank_Customer_Churn_Analysis/blob/main/Images/Power%20Bi/Page3/Screenshot%202026-07-05%20111552.jpg)
+
+- Average Age by Exited
+
+![Description of the screenshot](https://github.com/Pradipjagi99/Bank_Customer_Churn_Analysis/blob/main/Images/Power%20Bi/Page3/Screenshot%202026-07-05%20111246.jpg)
+
+- Average Balance by Exited
+
+![Description of the screenshot](https://github.com/Pradipjagi99/Bank_Customer_Churn_Analysis/blob/main/Images/Power%20Bi/Page3/Screenshot%202026-07-05%20111614.jpg)
+
+- Average Salary by Exited
+
+![Description of the screenshot](https://github.com/Pradipjagi99/Bank_Customer_Churn_Analysis/blob/main/Images/Power%20Bi/Page3/Screenshot%202026-07-05%20111643.jpg)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
